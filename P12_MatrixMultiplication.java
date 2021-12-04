@@ -20,9 +20,9 @@ public class P12_MatrixMultiplication {
 		int b[][] = new int [r2][c2];
 		int m[][] = new int [r1][c2];
 		
-		if (c2 != r1)
+		if (c1 != r2)
 		{
-			System.out.print("Incompatible ! \n(r1 and c2 must be same.)");
+			System.out.print("Incompatible ! \n(c1 and r2 must be same.)");
 		}
 		else
 		{
@@ -44,7 +44,7 @@ public class P12_MatrixMultiplication {
 			}
 			for (i=0; i<r1; i++)
 			{
-				for (j=0; j<c1; j++)
+				for (j=0; j<c2; j++)
 				{
 					for (k=0; k<c1; k++)
 					{
@@ -59,7 +59,7 @@ public class P12_MatrixMultiplication {
 				{
 					System.out.print((m[i][j])+"\t");
 				}System.out.println();
-		}
+			}
 		}
 	}
 }
