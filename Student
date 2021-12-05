@@ -17,3 +17,9 @@ public class P2_Student {
 		System.out.println("Name is "+s.name+". \nRoll number: "+s.roll_no);
 	}
 }
+
+/*
+OUTPUT:
+Name is John. 
+Roll number: 2
+*/
